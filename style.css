@@ -1,0 +1,50 @@
+body {
+  font-family: Arial, sans-serif; /* Yazı tipi ailesi */
+  font-size: 11px; /* <p></p> etiketindeki ana yazının boyutu */
+  background-color: #f0f0f0; /* Web sayfasının arka plan rengi */
+  color: #333333; /* Metin rengi */
+  border: #5988ff;
+  text-decoration-color: #ad2314;
+}
+
+h1 {
+  color: #e2ebc2; /* Başlık rengi */
+  font-size: 24px; /* Başlık yazı tipi boyutu */
+  font-family: "Inter";
+}
+
+h2 {
+  font-size: 15px;
+  color: azure;  
+}
+
+ol {
+  font-size: 18px;
+}
+
+p {
+  font-size: 20px;
+}
+
+@keyframes color-change {
+  0% {
+    color: #42cafd;
+  }
+
+  50% {
+    color: #66b3ba;
+  }
+
+  100% {
+    color: #8eb19d;
+  }
+}
+
+h1 {
+  animation: color-change 3s infinite;
+}
+
+h1:hover {
+  animation: color-change 3s infinite;
+  color: #e2ebc2;
+}
